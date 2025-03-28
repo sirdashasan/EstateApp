@@ -31,6 +31,6 @@ public class Main {
 
         System.out.println("Filtered houses with 4 rooms and 1 living room:");
         service.filterHousesByRoomAndLivingRoom(3, 1)
-                .forEach(h -> System.out.println("Price: " + nf.format(h.getPrice()) + ", m²: " + h.getSquareMeters()));
+                .forEach(h -> System.out.println("Price: " + nf.format(h.getPrice()) +" TL" + ", m²: " + h.getSquareMeters()));
     }
 }
